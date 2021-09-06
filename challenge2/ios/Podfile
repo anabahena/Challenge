@@ -3,7 +3,11 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 #platform :ios, '11.0'
 
+<<<<<<< HEAD:challengeMobile/ios/Podfile
+target 'challengeMobile' do
+=======
 target 'challenge2' do
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/Podfile
   config = use_native_modules!
 
   use_react_native!(
@@ -12,7 +16,11 @@ target 'challenge2' do
     :hermes_enabled => false
   )
 
+<<<<<<< HEAD:challengeMobile/ios/Podfile
+  target 'challengeMobileTests' do
+=======
   target 'challenge2Tests' do
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/Podfile
     inherit! :complete
     # Pods for testing
   end

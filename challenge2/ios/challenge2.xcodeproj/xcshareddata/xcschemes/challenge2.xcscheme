@@ -15,9 +15,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/xcshareddata/xcschemes/challengeMobile.xcscheme
+               BuildableName = "challengeMobile.app"
+               BlueprintName = "challengeMobile"
+               ReferencedContainer = "container:challengeMobile.xcodeproj">
+=======
                BuildableName = "challenge2.app"
                BlueprintName = "challenge2"
                ReferencedContainer = "container:challenge2.xcodeproj">
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/xcshareddata/xcschemes/challenge2.xcscheme
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +39,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/xcshareddata/xcschemes/challengeMobile.xcscheme
+               BuildableName = "challengeMobileTests.xctest"
+               BlueprintName = "challengeMobileTests"
+               ReferencedContainer = "container:challengeMobile.xcodeproj">
+=======
                BuildableName = "challenge2Tests.xctest"
                BlueprintName = "challenge2Tests"
                ReferencedContainer = "container:challenge2.xcodeproj">
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/xcshareddata/xcschemes/challenge2.xcscheme
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +67,15 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/xcshareddata/xcschemes/challengeMobile.xcscheme
+            BuildableName = "challengeMobile.app"
+            BlueprintName = "challengeMobile"
+            ReferencedContainer = "container:challengeMobile.xcodeproj">
+=======
             BuildableName = "challenge2.app"
             BlueprintName = "challenge2"
             ReferencedContainer = "container:challenge2.xcodeproj">
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/xcshareddata/xcschemes/challenge2.xcscheme
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +90,15 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/xcshareddata/xcschemes/challengeMobile.xcscheme
+            BuildableName = "challengeMobile.app"
+            BlueprintName = "challengeMobile"
+            ReferencedContainer = "container:challengeMobile.xcodeproj">
+=======
             BuildableName = "challenge2.app"
             BlueprintName = "challenge2"
             ReferencedContainer = "container:challenge2.xcodeproj">
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/xcshareddata/xcschemes/challenge2.xcscheme
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

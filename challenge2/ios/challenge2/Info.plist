@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile/Info.plist
+	<string>challengeMobile</string>
+=======
 	<string>challenge2</string>
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2/Info.plist
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

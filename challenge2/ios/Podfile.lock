@@ -511,6 +511,10 @@ SPEC CHECKSUMS:
   Yoga: aa0cb45287ebe1004c02a13f279c55a95f1572f4
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
+<<<<<<< HEAD:challengeMobile/ios/Podfile.lock
+PODFILE CHECKSUM: 048ab26c5f1dcdcff833549e97c059e19d662d70
+=======
 PODFILE CHECKSUM: 9046e6db13aad9536f1cfef4d80105071496c106
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/Podfile.lock
 
 COCOAPODS: 1.11.0

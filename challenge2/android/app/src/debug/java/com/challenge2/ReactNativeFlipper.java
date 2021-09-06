@@ -4,7 +4,11 @@
  * <p>This source code is licensed under the MIT license found in the LICENSE file in the root
  * directory of this source tree.
  */
+<<<<<<< HEAD:challengeMobile/android/app/src/debug/java/com/challengemobile/ReactNativeFlipper.java
+package com.challengemobile;
+=======
 package com.challenge2;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/android/app/src/debug/java/com/challenge2/ReactNativeFlipper.java
 
 import android.content.Context;
 import com.facebook.flipper.android.AndroidFlipperClient;

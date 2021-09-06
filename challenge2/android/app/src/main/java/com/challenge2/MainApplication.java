@@ -1,4 +1,8 @@
+<<<<<<< HEAD:challengeMobile/android/app/src/main/java/com/challengemobile/MainApplication.java
+package com.challengemobile;
+=======
 package com.challenge2;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/android/app/src/main/java/com/challenge2/MainApplication.java
 
 import android.app.Application;
 import android.content.Context;
@@ -62,7 +66,11 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
+<<<<<<< HEAD:challengeMobile/android/app/src/main/java/com/challengemobile/MainApplication.java
+        Class<?> aClass = Class.forName("com.challengemobile.ReactNativeFlipper");
+=======
         Class<?> aClass = Class.forName("com.challenge2.ReactNativeFlipper");
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/android/app/src/main/java/com/challenge2/MainApplication.java
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

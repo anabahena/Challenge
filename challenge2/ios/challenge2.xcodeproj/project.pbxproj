@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		00E356F31AD99517003FC87E /* challengeMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* challengeMobileTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1B70E04DA702FCFAC43E907E /* libPods-challengeMobile-challengeMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA62A2F65094EC4BC8387FF6 /* libPods-challengeMobile-challengeMobileTests.a */; };
+=======
 		00E356F31AD99517003FC87E /* challenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* challenge2Tests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1A1FAEC9404C458BBE2CD555 /* libPods-challenge2-challenge2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BD3B4A65D100EF357F717D /* libPods-challenge2-challenge2Tests.a */; };
 		262C8BB77C074DCAC4D39324 /* libPods-challenge2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36657A380C412018AEFCCB71 /* libPods-challenge2.a */; };
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DD19400C3489A64131CE6285 /* libPods-challengeMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DB5E7372430D4E7FC43904 /* libPods-challengeMobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,11 +31,32 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			remoteInfo = challengeMobile;
+=======
 			remoteInfo = challenge2;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		00E356EE1AD99517003FC87E /* challengeMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challengeMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* challengeMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = challengeMobileTests.m; sourceTree = "<group>"; };
+		0872D6AC42C75D8D55584D3F /* Pods-challengeMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeMobile.release.xcconfig"; path = "Target Support Files/Pods-challengeMobile/Pods-challengeMobile.release.xcconfig"; sourceTree = "<group>"; };
+		09DB5E7372430D4E7FC43904 /* libPods-challengeMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challengeMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* challengeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challengeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = challengeMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = challengeMobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = challengeMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = challengeMobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = challengeMobile/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = challengeMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C17ACC6947737FC1B8457A /* Pods-challengeMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeMobile.debug.xcconfig"; path = "Target Support Files/Pods-challengeMobile/Pods-challengeMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		B941F518C93A7B708488896B /* Pods-challengeMobile-challengeMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeMobile-challengeMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA62A2F65094EC4BC8387FF6 /* libPods-challengeMobile-challengeMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challengeMobile-challengeMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
 		00E356EE1AD99517003FC87E /* challenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* challenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = challenge2Tests.m; sourceTree = "<group>"; };
@@ -43,7 +73,9 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = challenge2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9391187F6DAFCEFB07204A12 /* Pods-challenge2-challenge2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge2-challenge2Tests.release.xcconfig"; path = "Target Support Files/Pods-challenge2-challenge2Tests/Pods-challenge2-challenge2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA76EE52CBD1A13605269380 /* Pods-challenge2-challenge2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge2-challenge2Tests.debug.xcconfig"; path = "Target Support Files/Pods-challenge2-challenge2Tests/Pods-challenge2-challenge2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F41D009D6147954B5B6952DC /* Pods-challengeMobile-challengeMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeMobile-challengeMobileTests.release.xcconfig"; path = "Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				1B70E04DA702FCFAC43E907E /* libPods-challengeMobile-challengeMobileTests.a in Frameworks */,
+=======
 				1A1FAEC9404C458BBE2CD555 /* libPods-challenge2-challenge2Tests.a in Frameworks */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,13 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				DD19400C3489A64131CE6285 /* libPods-challengeMobile.a in Frameworks */,
+=======
 				262C8BB77C074DCAC4D39324 /* libPods-challenge2.a in Frameworks */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		00E356EF1AD99517003FC87E /* challengeMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* challengeMobileTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = challengeMobileTests;
+=======
 		00E356EF1AD99517003FC87E /* challenge2Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +122,7 @@
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
 			path = challenge2Tests;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +133,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		13B07FAE1A68108700A75B9A /* challengeMobile */ = {
+=======
 		13B07FAE1A68108700A75B9A /* challenge2 */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,6 +147,9 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			name = challengeMobile;
+=======
 			name = challenge2;
 			sourceTree = "<group>";
 		};
@@ -106,16 +163,34 @@
 			);
 			name = Pods;
 			path = Pods;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				09DB5E7372430D4E7FC43904 /* libPods-challengeMobile.a */,
+				CA62A2F65094EC4BC8387FF6 /* libPods-challengeMobile-challengeMobileTests.a */,
+=======
 				36657A380C412018AEFCCB71 /* libPods-challenge2.a */,
 				21BD3B4A65D100EF357F717D /* libPods-challenge2-challenge2Tests.a */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54E4593A59019E46621DDE77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C17ACC6947737FC1B8457A /* Pods-challengeMobile.debug.xcconfig */,
+				0872D6AC42C75D8D55584D3F /* Pods-challengeMobile.release.xcconfig */,
+				B941F518C93A7B708488896B /* Pods-challengeMobile-challengeMobileTests.debug.xcconfig */,
+				F41D009D6147954B5B6952DC /* Pods-challengeMobile-challengeMobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -128,12 +203,21 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				13B07FAE1A68108700A75B9A /* challengeMobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* challengeMobileTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				54E4593A59019E46621DDE77 /* Pods */,
+=======
 				13B07FAE1A68108700A75B9A /* challenge2 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* challenge2Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2826DD7783C298FDB6351481 /* Pods */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,8 +227,13 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				13B07F961A680F5B00A75B9A /* challengeMobile.app */,
+				00E356EE1AD99517003FC87E /* challengeMobileTests.xctest */,
+=======
 				13B07F961A680F5B00A75B9A /* challenge2.app */,
 				00E356EE1AD99517003FC87E /* challenge2Tests.xctest */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +241,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		00E356ED1AD99517003FC87E /* challengeMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "challengeMobileTests" */;
+			buildPhases = (
+				D8AAA70E1B51138ED5145B4E /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				7C193F261D5DE5F6DF605903 /* [CP] Embed Pods Frameworks */,
+				829ED3D977F72B65523F4E3C /* [CP] Copy Pods Resources */,
+=======
 		00E356ED1AD99517003FC87E /* challenge2Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "challenge2Tests" */;
@@ -162,12 +263,25 @@
 				00E356EC1AD99517003FC87E /* Resources */,
 				54C7706F4C12EECB957D32FD /* [CP] Embed Pods Frameworks */,
 				DB95E0398D9CE069559587B1 /* [CP] Copy Pods Resources */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			name = challengeMobileTests;
+			productName = challengeMobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* challengeMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* challengeMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challengeMobile" */;
+			buildPhases = (
+				B8D4921386C89EE640F79578 /* [CP] Check Pods Manifest.lock */,
+=======
 			name = challenge2Tests;
 			productName = challenge2Tests;
 			productReference = 00E356EE1AD99517003FC87E /* challenge2Tests.xctest */;
@@ -178,21 +292,33 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challenge2" */;
 			buildPhases = (
 				D1B5C4B097DB375C945C10FF /* [CP] Check Pods Manifest.lock */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				7B8ADAF874D4B7AB358A9709 /* [CP] Embed Pods Frameworks */,
+				B2A4ACAF964D894CC4325EE5 /* [CP] Copy Pods Resources */,
+=======
 				9A144373B325E466E026AC06 /* [CP] Embed Pods Frameworks */,
 				35D9275C4C3D2012A9F0E6CF /* [CP] Copy Pods Resources */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			name = challengeMobile;
+			productName = challengeMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* challengeMobile.app */;
+=======
 			name = challenge2;
 			productName = challenge2;
 			productReference = 13B07F961A680F5B00A75B9A /* challenge2.app */;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +338,11 @@
 					};
 				};
 			};
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challengeMobile" */;
+=======
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challenge2" */;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +355,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				13B07F861A680F5B00A75B9A /* challengeMobile */,
+				00E356ED1AD99517003FC87E /* challengeMobileTests */,
+=======
 				13B07F861A680F5B00A75B9A /* challenge2 */,
 				00E356ED1AD99517003FC87E /* challenge2Tests */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 		};
 /* End PBXProject section */
@@ -265,12 +400,20 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		7B8ADAF874D4B7AB358A9709 /* [CP] Embed Pods Frameworks */ = {
+=======
 		30844B151DA614CC4BA827DD /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile/Pods-challengeMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+=======
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
@@ -278,6 +421,16 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile/Pods-challengeMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challengeMobile/Pods-challengeMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C193F261D5DE5F6DF605903 /* [CP] Embed Pods Frameworks */ = {
+=======
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-challenge2-challenge2Tests-checkManifestLockResult.txt",
@@ -288,11 +441,26 @@
 			showEnvVarsInLog = 0;
 		};
 		35D9275C4C3D2012A9F0E6CF /* [CP] Copy Pods Resources */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		829ED3D977F72B65523F4E3C /* [CP] Copy Pods Resources */ = {
+=======
 				"${PODS_ROOT}/Target Support Files/Pods-challenge2/Pods-challenge2-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -305,15 +473,30 @@
 			showEnvVarsInLog = 0;
 		};
 		54C7706F4C12EECB957D32FD /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+=======
 				"${PODS_ROOT}/Target Support Files/Pods-challenge2-challenge2Tests/Pods-challenge2-challenge2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challengeMobile-challengeMobileTests/Pods-challengeMobile-challengeMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A4ACAF964D894CC4325EE5 /* [CP] Copy Pods Resources */ = {
+=======
 				"${PODS_ROOT}/Target Support Files/Pods-challenge2-challenge2Tests/Pods-challenge2-challenge2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,11 +505,26 @@
 			showEnvVarsInLog = 0;
 		};
 		9A144373B325E466E026AC06 /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile/Pods-challengeMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-challengeMobile/Pods-challengeMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challengeMobile/Pods-challengeMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D4921386C89EE640F79578 /* [CP] Check Pods Manifest.lock */ = {
+=======
 				"${PODS_ROOT}/Target Support Files/Pods-challenge2/Pods-challenge2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -339,6 +537,7 @@
 			showEnvVarsInLog = 0;
 		};
 		D1B5C4B097DB375C945C10FF /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,19 +552,43 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				"$(DERIVED_FILE_DIR)/Pods-challengeMobile-checkManifestLockResult.txt",
+=======
 				"$(DERIVED_FILE_DIR)/Pods-challenge2-checkManifestLockResult.txt",
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		D8AAA70E1B51138ED5145B4E /* [CP] Check Pods Manifest.lock */ = {
+=======
 		DB95E0398D9CE069559587B1 /* [CP] Copy Pods Resources */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-challengeMobile-challengeMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+=======
 				"${PODS_ROOT}/Target Support Files/Pods-challenge2-challenge2Tests/Pods-challenge2-challenge2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -375,6 +598,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challenge2-challenge2Tests/Pods-challenge2-challenge2Tests-resources.sh\"\n";
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +627,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				00E356F31AD99517003FC87E /* challengeMobileTests.m in Sources */,
+=======
 				00E356F31AD99517003FC87E /* challenge2Tests.m in Sources */,
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +649,11 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			target = 13B07F861A680F5B00A75B9A /* challengeMobile */;
+=======
 			target = 13B07F861A680F5B00A75B9A /* challenge2 */;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +661,22 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			baseConfigurationReference = B941F518C93A7B708488896B /* Pods-challengeMobile-challengeMobileTests.debug.xcconfig */;
+=======
 			baseConfigurationReference = CA76EE52CBD1A13605269380 /* Pods-challenge2-challenge2Tests.debug.xcconfig */;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				INFOPLIST_FILE = challengeMobileTests/Info.plist;
+=======
 				INFOPLIST_FILE = challenge2Tests/Info.plist;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +690,29 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challengeMobile.app/challengeMobile";
+=======
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge2.app/challenge2";
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			baseConfigurationReference = F41D009D6147954B5B6952DC /* Pods-challengeMobile-challengeMobileTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = challengeMobileTests/Info.plist;
+=======
 			baseConfigurationReference = 9391187F6DAFCEFB07204A12 /* Pods-challenge2-challenge2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = challenge2Tests/Info.plist;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +726,31 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challengeMobile.app/challengeMobile";
+=======
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge2.app/challenge2";
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			baseConfigurationReference = 85C17ACC6947737FC1B8457A /* Pods-challengeMobile.debug.xcconfig */;
+=======
 			baseConfigurationReference = 4541DD403AA801FEA4CA71F0 /* Pods-challenge2.debug.xcconfig */;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				INFOPLIST_FILE = challengeMobile/Info.plist;
+=======
 				INFOPLIST_FILE = challenge2/Info.plist;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +761,11 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				PRODUCT_NAME = challengeMobile;
+=======
 				PRODUCT_NAME = challenge2;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +774,20 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+			baseConfigurationReference = 0872D6AC42C75D8D55584D3F /* Pods-challengeMobile.release.xcconfig */;
+=======
 			baseConfigurationReference = 72650D13C351FB54F7F87981 /* Pods-challenge2.release.xcconfig */;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				INFOPLIST_FILE = challengeMobile/Info.plist;
+=======
 				INFOPLIST_FILE = challenge2/Info.plist;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +798,11 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+				PRODUCT_NAME = challengeMobile;
+=======
 				PRODUCT_NAME = challenge2;
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +934,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "challengeMobileTests" */ = {
+=======
 		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "challenge2Tests" */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +947,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challengeMobile" */ = {
+=======
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challenge2" */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +960,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile.xcodeproj/project.pbxproj
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challengeMobile" */ = {
+=======
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challenge2" */ = {
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2.xcodeproj/project.pbxproj
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

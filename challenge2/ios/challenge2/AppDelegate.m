@@ -33,7 +33,11 @@ static void InitializeFlipper(UIApplication *application) {
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
+<<<<<<< HEAD:challengeMobile/ios/challengeMobile/AppDelegate.m
+                                                   moduleName:@"challengeMobile"
+=======
                                                    moduleName:@"challenge2"
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2/AppDelegate.m
                                             initialProperties:nil];
 
   if (@available(iOS 13.0, *)) {

@@ -7,11 +7,19 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
+<<<<<<< HEAD:challengeMobile/ios/challengeMobileTests/challengeMobileTests.m
+@interface challengeMobileTests : XCTestCase
+
+@end
+
+@implementation challengeMobileTests
+=======
 @interface challenge2Tests : XCTestCase
 
 @end
 
 @implementation challenge2Tests
+>>>>>>> 7f85bdf9421e5c6f653941cae2ee1a909f63b7f0:challenge2/ios/challenge2Tests/challenge2Tests.m
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
