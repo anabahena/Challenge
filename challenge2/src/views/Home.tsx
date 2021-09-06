@@ -18,7 +18,7 @@ import {
 const Home: React.FC = ({currencies = []}) => {
   const [data, setData] = useState(currencies);
   const pricesWs = new WebSocket(
-    'wss://ws.coincap.io/prices?assets=bitcoin,ethereum,monero,litecoin',
+    'wss://ws.coincap.io/prices?assets=ALL',
   );
 
   pricesWs.onmessage = msg => {
@@ -40,10 +40,6 @@ const Home: React.FC = ({currencies = []}) => {
           })
           : 0;
       const calcPercent = percent > 0 ? percent.toFixed(2) : 0;
-      // @ts-ignore
-      // @ts-ignore
-      // @ts-ignore
-      // @ts-ignore
       newArray.push({
         type: key,
         value,
@@ -54,7 +50,7 @@ const Home: React.FC = ({currencies = []}) => {
       });
       filterData = data.filter((item: {type: string}) => item.type !== key);
     });
-    setInterval(() => setData([...filterData, ...newArray]), 5000);
+    setInterval(() => setData([...filterData, ...newArray]), 500);
   };
 
   // @ts-ignore
@@ -119,18 +115,19 @@ const Home: React.FC = ({currencies = []}) => {
     );
   };
 
-  // @ts-ignore
-  // @ts-ignore
   return (
     // eslint-disable-next-line react-native/no-inline-styles
     <SafeAreaView style={{flex: 1}}>
-      <View>
+      <View style={{
+        height:80
+      }}>
         <Button
           onPress={()=> console.log('....')}
           title="Learn More"
           color="transparent"
           accessibilityLabel="Learn more about this purple button"
         />
+
       </View>
       <ScrollView>
         {data.map(
